@@ -67,3 +67,5 @@
 5. 进入设备中的/usr/bin下，chmod a+x 可执行文件
 
 6. sh 可执行文件
+
+实现参考了[iOS上的内存修改器](https://www.baidu.com/s?wd=HippocampHairSalon%20内存修改&rsv_spt=1&rsv_iqid=0xa551062b0000c5e4&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=baiduhome_pg&rsv_enter=1&rsv_dl=tb&oq=Hooper%2520%25E5%2586%2585%25E5%25AD%2598%25E4%25BF%25AE%25E6%2594%25B9&rsv_btype=t&inputT=419&rsv_t=f76b6xi07kYagdoH1vnx9ptoJC%2FYTV6k8L7unBWpbkCtr5NutdTquNXLDOO9YYNG8vfu&rsv_pq=a6ae362c00017522&rsv_sug3=36&rsv_sug2=0&rsv_sug4=419),[readmem](https://github.com/gdbinit/readmem)
