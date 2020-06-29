@@ -33,6 +33,12 @@ mach_vm_read(
         mach_msg_type_number_t    *data_size);
 
 // 用data写入地址
+// mach_vm_write() : https://opensource.apple.com/source/xnu/xnu-4570.41.2/osfmk/vm/vm_user.c.auto.html
+// vm_map_copy_overwrite() : https://opensource.apple.com/source/xnu/xnu-124.7/osfmk/vm/vm_map.c.auto.html
+// vm_map_copy_overwrite_nested : https://opensource.apple.com/source/xnu/xnu-124.7/osfmk/vm/vm_map.c.auto.html
+// vm_map_copy_overwrite_aligned : 同上
+// copyinmap() : http://newosxbook.com/src.jl?tree=xnu-2050.24.15&file=/osfmk/vm/vm_kern.c
+// copyin + memcpy
 extern kern_return_t
 mach_vm_write(
         vm_map_t            map,
